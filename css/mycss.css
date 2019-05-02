@@ -1,0 +1,40 @@
+.modal-backdrop {
+  display: none;
+}
+.modal {
+  background: rgba(0,0,0,0.5);
+  }
+.modal-open {
+    overflow: hidden;
+    padding-right: 0 !important;
+}
+.wrapper {
+  position: relative;
+  width: 174px;
+  margin-bottom: 20px;
+}
+
+.toggler-ico {
+  border: none;
+  background: none;
+  padding: 0;
+  width: 15px;
+    
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.beforeafter:after{
+font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+   
+ 
+}
+.beforeafter:before{
+ font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+ 	
+}
+.no-af-bf::after{
+	content: "";
+}
+
+
